@@ -77,21 +77,64 @@ p {
 
 .container {
 	max-width: 100%;
-    margin: 0px auto;
 }
 
 .navigation {
-    border: 1px solid black;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 50px;
 }
 
 .navigation__links--button {
     text-decoration: none;
     color: black;
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding-right: 40px;
 }
 
-about
+.about {
+    background-image: url("about-background.jpg");
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    align-items: center;
+}
+
+.about h1 {
+    color: white;
+    background-color: lightslategray;
+    font-size: 3.0rem;
+    margin-bottom: 30px;
+    padding: 10px;
+}
+
+.about p {
+    background-color: lightslategray;
+    color: white;
+    padding: 10px;
+    width: 60%;
+    margin-top: 50px;
+}
+
+.about__navigation--button {
+    color: white;
+    text-decoration: none;
+    font-size: 2.5rem;
+    margin-right: 5px;
+    padding: 4px 70px;
+    background-color: lightslategray;
+}
+
+.about__navigation--button:hover {
+    background-color: lightblue;
+}
+
+.value {
+    display: flex;
+}
+
+.value h2 {
+    display: block;
+}
