@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5 {
 
 p {
     letter-spacing: 0.4px;
-    line-height: 1.22;
+    line-height: 1.5;
     font-size: 1.5rem;
 }
 
@@ -102,7 +102,6 @@ p {
     padding-right: 40px;
 }
 
-
 .about {
     background-image: url("about-background.jpg");
     background-size: 100%;
@@ -114,35 +113,35 @@ p {
 }
 
 .about h1 {
-    color: white;
-    background-color: lightslategray;
+    color: black;
+    background-color: lightblue;
     font-size: 3.0rem;
     margin-bottom: 30px;
     padding: 10px;
 }
 
 .about p {
-    background-color: lightslategray;
-    color: white;
+    background-color: lightblue;
+    color: black;
     padding: 10px;
     width: 60%;
     margin-top: 50px;
 }
 
 .about__navigation--button {
-    color: white;
+    color: black;
     text-decoration: none;
     font-size: 2.5rem;
     margin-right: 5px;
     padding: 4px 70px;
-    background-color: lightslategray;
+    background-color: lightblue;
 }
 
 .about__navigation--button:hover {
     background-color: lightblue;
 }
 
-.content__container {
+.content--container {
     max-width: 90%;
     margin: 0 auto;
 }
@@ -189,4 +188,49 @@ p {
 .testimonial__image {
     width: 100%;
     margin-bottom: 15px;
+}
+
+.footer {
+    background: lightblue;
+    padding: 50px 0;
+    margin-top: 30px;
+}
+
+.footer__content {
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.footer__navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.footer__navigation--button {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    border: 1px solid black;
+    padding: 5px 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.footer__address {
+    font-size: 1.5rem;
+    line-height: 0;
+}
+
+.footer__address p {
+    line-height: 30px;
+}
+
+.footer__copyright {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 1.5rem;
 }
