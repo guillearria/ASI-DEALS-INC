@@ -89,6 +89,11 @@ p {
 
 .navigation__login {
     margin-left: auto;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    font-size: 1.7rem;
+    padding: 5px 40px;
 }
 
 .navigation__logo {
@@ -103,24 +108,26 @@ p {
 }
 
 .about {
-    background-image: url("about-background.jpg");
-    background-size: 100%;
+    background-image: url("about-background2.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
-    padding: 200px;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 500px;
 }
 
 .about h1 {
     color: black;
-    background-color: lightblue;
     font-size: 3.0rem;
     margin-bottom: 30px;
     padding: 10px;
 }
 
 .about p {
+    display: none;
     background-color: lightblue;
     color: black;
     padding: 10px;
@@ -129,12 +136,13 @@ p {
 }
 
 .about__navigation--button {
-    color: black;
+    color: white;
+    border: 1px solid black;
     text-decoration: none;
     font-size: 2.5rem;
     margin-right: 5px;
     padding: 4px 70px;
-    background-color: lightblue;
+    background-color: slategrey;
 }
 
 .about__navigation--button:hover {
