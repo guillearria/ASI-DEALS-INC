@@ -93,7 +93,7 @@ p {
     color: black;
     border: 1px solid black;
     font-size: 1.7rem;
-    padding: 5px 40px;
+    padding: 8px 40px;
 }
 
 .navigation__logo {
@@ -120,8 +120,9 @@ p {
 }
 
 .about h1 {
-    color: black;
-    font-size: 3.0rem;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    font-size: 3.5rem;
     margin-bottom: 30px;
     padding: 10px;
 }
@@ -137,16 +138,16 @@ p {
 
 .about__navigation--button {
     color: white;
-    border: 1px solid black;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     margin-right: 5px;
-    padding: 4px 70px;
+    padding: 8px 70px;
     background-color: slategrey;
+    opacity: 0.8;
 }
 
 .about__navigation--button:hover {
-    background-color: lightblue;
+    background-color: #00a0dd;
 }
 
 .content--container {
@@ -199,7 +200,7 @@ p {
 }
 
 .footer {
-    background: lightblue;
+    background: #00a0dd;
     padding: 50px 0;
     margin-top: 30px;
 }
